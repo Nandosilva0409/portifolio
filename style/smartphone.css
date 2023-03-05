@@ -12,3 +12,24 @@
     --fonte-principal: 'Raleway', sans-serif;
     --fonte-geral:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+*{
+    margin: none;
+    padding: none;
+    box-sizing: border-box;
+    transition: all .3s ease;
+}
+
+
+main::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+
+
+header{
+    padding: 30px;
+    position: sticky;
+    top: 0px;
+    display: grid;
+}
