@@ -16,6 +16,7 @@
 *{
     margin: none;
     padding: none;
+    font: normal normal 1em var(--fonte-geral);
     box-sizing: border-box;
     transition: all .3s ease;
 }
@@ -28,8 +29,47 @@ main::-webkit-scrollbar{
 
 
 header{
-    padding: 30px;
+    height: 70px;
+    padding: 0px 20px;
     position: sticky;
     top: 0px;
     display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+    align-items: center;
+}
+
+
+.header-menu{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+.header-menu-barra{
+    position: absolute;
+    width: 40px;
+    height: 4px;
+    border-radius: 10px;
+}
+.header-menu-barra1{
+    top: 0px;
+}
+.header-menu-barra2{
+    top: 15px;
+}
+.header-menu-barra3{
+    top: 30px;
+}
+
+.header-opicao{
+    position: absolute;
+    top: 70px;
+    left: 0px;
+}
+.header-opicao > a{
+    padding: 10px;
+    font: 600 normal 1em var(--fonte-principal);
+    text-decoration: none;
+    
 }
