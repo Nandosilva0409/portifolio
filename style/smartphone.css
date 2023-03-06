@@ -40,27 +40,6 @@ header{
 }
 
 
-.header-menu{
-    position: relative;
-    width: 40px;
-    height: 40px;
-    border-radius: 10px;
-}
-.header-menu-barra{
-    position: absolute;
-    width: 40px;
-    height: 4px;
-    border-radius: 10px;
-}
-.header-menu-barra1{
-    top: 0px;
-}
-.header-menu-barra2{
-    top: 15px;
-}
-.header-menu-barra3{
-    top: 30px;
-}
 
 .header-opicao{
     position: absolute;
