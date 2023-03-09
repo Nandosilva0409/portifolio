@@ -4,11 +4,11 @@
 
 
 :root{    
-    --cor1: #505168;
-    --cor2: #F2F230;
-    --cor3: white;
-    --cor4: #A9927D;
-    --cor5: #465362;
+    --cor1: #00D390;
+    --cor2: #FFFFFF;
+    --cor3: #626262;
+    --cor4: #3D3D3D;
+    --cor5: #0A0903;
     --fonte-principal: 'Raleway', sans-serif;
     --fonte-geral:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
