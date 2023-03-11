@@ -52,3 +52,235 @@ header{
     text-decoration: none;
     
 }
+
+/******** Animação-logo-menu***********/
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    transition: all .3s ease;
+}
+
+.logo{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    margin: 50px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.logo > h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo:hover > h1{
+    opacity: 0;
+    transform: rotate(90deg) scale(0);
+
+}
+
+.logo-voltar{
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    opacity: 0;
+    transform: rotate(90deg) scale(0);
+}
+.logo:hover .logo-voltar{
+    opacity: 1;
+    transform: rotate(0deg) scale(1);
+}
+.logo-voltar-bar1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40px;
+    height: 4px;
+    background-color: black;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+}
+.logo-voltar-bar2{
+    position: absolute;
+    top: 50%;
+    left: 3px;
+    width: 23px;
+    height: 4px;
+    background-color: black;
+    border-radius: 10px;
+    transform: translate(0%, -50%);
+}
+.logo-voltar-bar3{
+    position: absolute;
+    top: 50%;
+    left: 3px;
+    width: 23px;
+    height: 4px;
+    background-color: black;
+    border-radius: 10px;
+    transform: translate(0%, -50%);
+}
+
+.logo:hover .logo-voltar-bar2{
+    top: calc(50% + 6px);
+    transform: translate(0%, -50%) rotate(35deg);
+    transition: all .2s ease;
+    transition-delay: .1s;
+}
+.logo:hover .logo-voltar-bar3{
+    top: calc(50% - 6px);
+    transform: translate(0%, -50%) rotate(-35deg);
+    transition: all .2s ease;
+    transition-delay: .1s;
+}
+
+/********* Animação menu.html ********/
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    transition: all .3s ease;
+}
+
+header{
+    position: relative;
+    width: 100%;
+    height: 70px;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-items: center;
+    background:#00D390;
+}
+
+.menu-button{cursor: pointer;
+    position: relative;
+    width: 38px;
+    height: 40px;
+}
+
+.menu-bar1{
+    position: absolute;
+    top: 6px;
+    width: 38px;
+    height: 4px;
+    border-radius: 1px;
+    background-color: black;
+
+}
+.menu-bar2{
+    position: absolute;
+    top: 18px;
+    width: 38px;
+    height: 4px;
+    border-radius: 1px;
+    background-color: black;
+
+}
+.menu-bar3{
+    position: absolute;
+    top: 30px;
+    width: 38px;
+    height: 4px;
+    border-radius: 1px;
+    background-color: black;
+
+}
+
+.menu-options{
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    width: 200px;
+    height: 500px;
+    background-color: rgba(100, 73, 100, 0.133);
+    transition: all .8s ease;
+    transform: translate(-100%);
+
+}
+.menu-options-other-screen{
+    position: static;
+    top: none;
+    left: none;
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    transition: all .0s ease;
+}
+
+/********* Animação do iframe.html *********/
+
+*{ 
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    transition: all .3s ease;
+}
+
+main{
+    padding: 50px;
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+main > section{
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.466);
+    overflow: hidden;
+}
+
+main > section > .fundo{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    align-items: center;
+    justify-items: center;
+}
+main > section > .fundo > iframe{
+    width: 350px;
+    height: 250px;
+}
+main > section > .fundo > a{
+    padding: 10px;
+    width: 100%;
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+main > section > .capa{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: rgb(255, 145, 0);
+    background-image: linear-gradient(110deg, rgb(255, 200, 0), rgb(255, 130, 0)30%, rgb(255, 30, 0)90%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+}
+
+main > section:hover > .capa{
+    opacity: 0;
+    transform: rotate(90deg) scale(0);
+    transition: all .5s ease;
+}
+
+#texto-principal{
+    border: 2px gray solid;
+    background: #3D3D3D;
+    float: both;
+}
+
