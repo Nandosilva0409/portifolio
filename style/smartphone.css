@@ -26,9 +26,9 @@
     transition: all .3s ease;
 }
 
-
-
-
+html{
+    scroll-behavior: smooth;
+}
 
 header{
     height: 70px;
@@ -39,50 +39,31 @@ header{
     grid-template-columns: auto auto;
     justify-items: center;
     align-items: center;
+    background-color: var(--cor5);
+    color: var(--cor1);
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
 }
 
 
 
-.header-opicao{
-    position: absolute;
-    top: 70px;
-    left: 0px;
-}
-.header-opicao > a{
-    padding: 10px;
-    font: 600 normal 1em var(--fonte-principal);
-    text-decoration: none;
-    
-}
-
-<<<<<<< HEAD
-/******** Animação-logo-menu***********/
-
-*{
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-    transition: all .3s ease;
-}
+/*  Animação logo  */
 
 .logo{
     position: relative;
     width: fit-content;
     height: fit-content;
-    margin: 50px;
     display: grid;
     justify-items: center;
+    justify-self: left;
     align-items: center;
-
 }
 
 .logo > h1{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font: 600 normal 1em var(--fonte-principal);
 }
 .logo:hover > h1{
     opacity: 0;
     transform: rotate(90deg) scale(0);
-
 }
 
 .logo-voltar{
@@ -102,7 +83,7 @@ header{
     left: 50%;
     width: 40px;
     height: 4px;
-    background-color: black;
+    background-color: var(--cor1);
     border-radius: 10px;
     transform: translate(-50%, -50%);
 }
@@ -112,7 +93,7 @@ header{
     left: 3px;
     width: 23px;
     height: 4px;
-    background-color: black;
+    background-color: var(--cor1);
     border-radius: 10px;
     transform: translate(0%, -50%);
 }
@@ -122,7 +103,7 @@ header{
     left: 3px;
     width: 23px;
     height: 4px;
-    background-color: black;
+    background-color: var(--cor1);
     border-radius: 10px;
     transform: translate(0%, -50%);
 }
@@ -140,28 +121,16 @@ header{
     transition-delay: .1s;
 }
 
-/********* Animação menu.html ********/
 
-*{
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-    transition: all .3s ease;
-}
 
-header{
+
+
+/*  Animação menu  */
+
+.menu-button{
+    cursor: pointer;
     position: relative;
-    width: 100%;
-    height: 70px;
-    display: grid;
-    grid-template-columns: auto auto;
-    align-items: center;
-    justify-items: center;
-    background:#00D390;
-}
-
-.menu-button{cursor: pointer;
-    position: relative;
+    justify-self: right;
     width: 38px;
     height: 40px;
 }
@@ -170,27 +139,27 @@ header{
     position: absolute;
     top: 6px;
     width: 38px;
-    height: 4px;
-    border-radius: 1px;
-    background-color: black;
+    height: 3px;
+    border-radius: 2px;
+    background-color: var(--cor1);
 
 }
 .menu-bar2{
     position: absolute;
     top: 18px;
     width: 38px;
-    height: 4px;
-    border-radius: 1px;
-    background-color: black;
+    height: 3px;
+    border-radius: 2px;
+    background-color: var(--cor1);
 
 }
 .menu-bar3{
     position: absolute;
     top: 30px;
     width: 38px;
-    height: 4px;
-    border-radius: 1px;
-    background-color: black;
+    height: 3px;
+    border-radius: 2px;
+    background-color: var(--cor1);
 
 }
 
@@ -209,29 +178,18 @@ header{
     position: static;
     top: none;
     left: none;
-    width: 100%;
+    width: fit-content;
     height: 50px;
-    background-color: red;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+    justify-self: right;
     transition: all .0s ease;
 }
 
-/********* Animação do iframe.html *********/
-
-*{ 
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-    transition: all .3s ease;
-}
-
-main{
-    padding: 50px;
-    width: 100%;
-    display: grid;
-    justify-items: center;
-    align-items: center;
-}
-
+/*  Animação do iframe  */
 main > section{
     position: relative;
     border-radius: 20px;
@@ -287,8 +245,6 @@ main > section:hover > .capa{
     float: both;
 }
 
-=======
-
 
 
 
@@ -302,6 +258,7 @@ footer{
     justify-items: center;
     align-items: center;
     background-color: var(--cor5);
+    box-shadow: 0px -3px 6px rgba(0, 0, 0, 0.5);
 }
 
 footer > h1{
@@ -376,4 +333,3 @@ footer > p{
     color: var(--cor1);
     text-align: center;
 }
->>>>>>> f37b09b3b3ad1917daa0035aa158ec87408c0876
