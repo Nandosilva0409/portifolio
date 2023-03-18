@@ -246,6 +246,7 @@ header{
 
 
 main{
+    padding: 100px 10px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
@@ -259,22 +260,25 @@ main > div{
 main > div > section{
     overflow: hidden;
     position: relative;
-    width: 100px;
-    height: 100px;
-    transform-style: preserve-3d;
+    margin: 10px 0px;
+    width: 130px;
+    height: 130px;
+    background-color: var(--cor5);
+    border-radius: 20px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.466);
 }
 
 
-main > div > section > article{
+#ar1{
     width: 100%;
     height: 100%;
     position: absolute;
-}
-
-#ar1{
-    transform: translateY(-100px);
+    transform: translateY(-130px);
 }
 #ar2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
     transform: translateY(0px);
 }
 
@@ -282,7 +286,7 @@ section:hover #ar1{
     transform: translateY(0px);
 }
 section:hover #ar2{
-    transform: translateY(-100px);
+    transform: translateY(-130px);
 }
 
 
