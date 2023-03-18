@@ -1,3 +1,8 @@
+const buttonReturnHeader = document.querySelector("#return-header");
+buttonReturnHeader.addEventListener("click", girarButtonHeaderMenu);
+
+
+
 /*  animação do menu  */
 
 function ativarMenu(ativado){
@@ -73,3 +78,14 @@ function ativarMenuOtherScreen() {
     };
 };
 ativarMenuOtherScreen();
+
+
+
+/* animação botão que returna para o header*/
+function girarButtonHeaderMenu() {
+    buttonReturnHeader.setAttribute("style", "transform: translate(-50%) rotate(180deg);");
+
+    setTimeout(() => {
+        buttonReturnHeader.setAttribute("style", "transform: translate(-50%) rotate(0deg);");
+    }, 500);
+}
