@@ -176,21 +176,30 @@ header{
     left: 0px;
     width: 200px;
     height: 500px;
-    background-color: rgba(100, 73, 100, 0.133);
+    background-color:rgba(100, 73, 100, 0.133);
     display: flex;
     flex-flow: column nowrap;
     transition: all .8s ease;
     transform: translate(-100%);
-    
+    padding: 10px;
 
 }
 
 .menu-options> a{
     color:var(--cor1);
-    padding: 10px;
+    padding: 3px;
     margin-left:5px;
     font-size: 2em;
-    font:600 normal 1.5em var(--fonte-geral)
+    font:600 normal 1.5em var(--fonte-geral);
+    background:#5c6b73;
+    border-radius: 20px;
+    text-align: center;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.menu-options> a:hover{
+     background-color:#253237 ;
 }
 
 .menu-options-other-screen{
