@@ -39,13 +39,13 @@ html{
 
 header{
     z-index: 2;
-    height: 70px;
-    padding: 0px 20px;
+    height:70px;
+    padding: 20px 20px 0px 20px;
     position: relative;
     display: grid;
     grid-template-columns: auto auto;
     justify-items: center;
-    align-items: center;
+    align-items: top;
     background-color: var(--cor4);
     color: var(--cor1);
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
@@ -61,11 +61,14 @@ header{
     justify-items: center;
     justify-self: left;
     align-items: center;
+    height: fit-content;
+    
 }
 
 .logo > svg{
     width: 40px;
     height: 40px;
+   
 }
 .logo:hover > svg{
     opacity: 0;
@@ -175,13 +178,14 @@ header{
 
 }
 
+
 .menu-options{
     position: absolute;
     top: 70px;
     left: 0px;
     width: 200px;
-    height: 500px;
-    background-color:rgba(100, 73, 100, 0.133);
+    height:fit-content;
+   
     display: flex;
     flex-flow: column nowrap;
     transition: all .8s ease;
