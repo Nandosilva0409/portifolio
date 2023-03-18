@@ -4,11 +4,11 @@
 
 
 :root{    
-    --cor1: #FFFFFF;
-    --cor2: #EFCA08;
-    --cor3: #00B295;
-    --cor4: #383C56;
-    --cor5: #05070F;
+    --cor1: #e0fbfc;
+    --cor2: #c2dfe3;
+    --cor3: #9db4c0;
+    --cor4: #5c6b73;
+    --cor5: #253237;
     --fonte-principal: 'Raleway', sans-serif;
     --fonte-geral:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -40,7 +40,7 @@ header{
     grid-template-columns: auto auto;
     justify-items: center;
     align-items: center;
-    background-color: var(--cor5);
+    background-color: var(--cor4);
     color: var(--cor1);
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
 }
@@ -171,10 +171,22 @@ header{
     width: 200px;
     height: 500px;
     background-color: rgba(100, 73, 100, 0.133);
+    display: flex;
+    flex-flow: column nowrap;
     transition: all .8s ease;
     transform: translate(-100%);
+    
 
 }
+
+.menu-options> a{
+    color:var(--cor1);
+    padding: 10px;
+    margin-left:5px;
+    font-size: 2em;
+    font:600 normal 1.5em var(--fonte-geral)
+}
+
 .menu-options-other-screen{
     position: static;
     top: none;
