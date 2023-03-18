@@ -57,20 +57,25 @@ header{
 
 .logo{
     position: relative;
-    width: fit-content;
-    height: fit-content;
     display: grid;
     justify-items: center;
     justify-self: left;
     align-items: center;
 }
 
-.logo > h1{
-    font: 600 normal 1em var(--fonte-principal);
+.logo > svg{
+    width: 40px;
+    height: 40px;
 }
-.logo:hover > h1{
+.logo:hover > svg{
     opacity: 0;
     transform: rotate(90deg) scale(0);
+}
+
+.logo > svg > use{
+    fill: none;
+    stroke: white;
+    stroke-width: 4px;
 }
 
 .logo-voltar{
@@ -217,6 +222,25 @@ header{
     transition: all .0s ease;
 }
 
+
+
+
+#return-header{
+    z-index: -1;
+    position: fixed;
+    left: 50%;
+    top: 15px;
+    width: 40px;
+    height: 10px;
+    background-color: var(--cor5);
+    border: 1px solid var(--cor1);
+    border-radius: 100px;
+    transform: translate(-50%);
+}
+
+
+
+
 /*  Animação do iframe  */
 main > section{
     position: relative;
@@ -275,18 +299,7 @@ main > section:hover > .capa{
 
 
 
-#return-header{
-    z-index: -1;
-    position: fixed;
-    left: 50%;
-    top: 15px;
-    width: 40px;
-    height: 10px;
-    background-color: var(--cor5);
-    border: 1px solid var(--cor1);
-    border-radius: 100px;
-    transform: translate(-50%);
-}
+
 
 
 
