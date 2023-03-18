@@ -77,7 +77,7 @@ function ativarMenuOtherScreen() {
         },300);
     };
 };
-ativarMenuOtherScreen();
+function carregarPagina(){ativarMenuOtherScreen()};
 
 
 
