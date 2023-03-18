@@ -248,7 +248,7 @@ header{
 main{
     padding: 100px 10px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     justify-items: center;
 }
 
@@ -262,7 +262,7 @@ main > div > section{
     position: relative;
     margin: 10px 0px;
     width: 130px;
-    height: 130px;
+    height: 200px;
     background-color: var(--cor5);
     border-radius: 20px;
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.466);
@@ -279,6 +279,7 @@ main > div > section{
     width: 100%;
     height: 100%;
     position: absolute;
+    padding: 5px;
     transform: translateY(0px);
 }
 
