@@ -1,0 +1,111 @@
+<svg
+   viewBox="0 0 110 110"
+   xmlns="http://www.w3.org/2000/svg">
+  <symbol id="logo">
+     <g>
+       <rect
+          width="10"
+          height="110"
+          x="5"
+          y="5" />
+       <rect
+          width="60"
+          height="10"
+          x="5"
+          y="5" />
+       <rect
+          width="40"
+          height="10"
+          x="5"
+          y="50" />
+       <circle
+          cx="110"
+          cy="110"
+          r="5" />
+       <circle
+          cx="110"
+          cy="100"
+          r="5" />
+       <circle
+          cx="110"
+          cy="90"
+          r="5" />
+       <circle
+          cx="110"
+          cy="80"
+          r="5" />
+       <circle
+          cx="110"
+          cy="70"
+          r="5" />
+       <circle
+          cx="110"
+          cy="60"
+          r="5" />
+       <circle
+          cx="110"
+          cy="50"
+          r="5" />
+       <circle
+          cx="110"
+          cy="40"
+          r="5" />
+       <circle
+          cx="110"
+          cy="30"
+          r="5" />
+       <circle
+          cx="110"
+          cy="20"
+          r="5" />
+       <circle
+          cx="110"
+          cy="10"
+          r="5" />
+       <circle
+          cx="101.2"
+          cy="15"
+          r="5" />
+       <circle
+          cx="62.871201"
+          cy="47.900768"
+          r="5" />
+       <circle
+          cx="54.73774"
+          cy="42.127075"
+          r="5" />
+       <circle
+          cx="46.996929"
+          cy="35.778912"
+          r="5" />
+       <circle
+          cx="39.186485"
+          cy="29.361116"
+          r="5" />
+       <circle
+          cx="31.265882"
+          cy="23.22374"
+          r="5" />
+       <circle
+          cx="22.977551"
+          cy="17.643476"
+          r="5" />
+       <circle
+          cx="70.793037"
+          cy="41.779495"
+          r="5" />
+       <circle
+          cx="78.452614"
+          cy="35.048355"
+          r="5" />
+       <circle
+          cx="85.880074"
+          cy="28.317217"
+          r="5" />
+       <circle
+          cx="93.53965"
+          cy="21.702127"
+          r="5" />
+     </g>
+  </symbol>
+</svg>
